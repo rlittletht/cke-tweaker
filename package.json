@@ -1,0 +1,44 @@
+{
+  "name": "cke-tweaker",
+  "version": "0.0.1",
+  "description": "Edge/Chrome extension to tweak ckeditor in a browswer window",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rlittletht/cke-tweaker"
+  },
+  "author": "Robert Little",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-typescript": "^7.13.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.17.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard-preact": "^1.1.6",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^7.0.1",
+    "postcss-loader": "^7.0.0",
+    "source-map-loader": "^3.0.1",
+    "style-loader": "^3.3.1",
+    "transform-json-webpack-plugin": "0.0.2",
+    "web-ext": "^6.8.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
